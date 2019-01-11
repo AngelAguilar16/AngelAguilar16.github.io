@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    background: #111111;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+}
+
+#me{
+    margin-top: 2%;
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+}
+
+.resume{
+    margin-top: 2%;
+}
+
+#logo1001{
+    width: 70px;
+    height: 70px;
+}
+
+#logo9SG{
+    width: 50px;
+    height: 70px;
+    margin-right: 1%;
+}
+
+#logoMD{
+    width: 40px;
+    height: 35px;
+}
+
+#footie{
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
