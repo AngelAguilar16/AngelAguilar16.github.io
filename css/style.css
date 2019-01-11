@@ -7,11 +7,6 @@ html, body {
     color: #FFFFFF;
 }
 
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-}
-
 #me{
     margin-top: 2%;
     height: 170px;
@@ -42,9 +37,3 @@ html, body {
 #footie{
     font-size: 12px;
 }
-
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-  }
