@@ -2,7 +2,8 @@ html, body {
     height: 100%;
     margin: 0;
     font-family: 'Hind Siliguri', sans-serif;
-    background: #111111;
+    /*background: #CDDCFF;*/
+    background: #543E99;
     text-align: center;
     color: #FFFFFF;
 }
@@ -32,6 +33,17 @@ html, body {
 #logoMD{
     width: 40px;
     height: 35px;
+}
+
+#pl{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.cLan{
+    width: 60px;
+    height: 67px;
 }
 
 #footie{
