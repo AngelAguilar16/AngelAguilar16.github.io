@@ -3,31 +3,36 @@ html, body {
     margin: 0;
     font-family: 'Hind Siliguri', sans-serif;
     /*background: #CDDCFF;*/
-    background: #543E99;
+    background: #000000;
     text-align: center;
     color: #FFFFFF;
 }
 
 #me{
-    margin-top: 2%;
-    height: 170px;
-    width: 170px;
+    margin-top: 1%;
+    height: 150px;
+    width: 150px;
     border-radius: 100%;
+    filter: grayscale(100%);
 }
 
 .resume{
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
-#logo1001{
-    width: 70px;
-    height: 70px;
+#Logo_AA_Black{
+    width: 200px;
+    height: 89px;
 }
 
 #logo9SG{
     width: 50px;
     height: 70px;
-    margin-right: 1%;
+}
+
+#logoCoco{
+    width: 70px;
+    height: 70px;
 }
 
 #logoMD{
