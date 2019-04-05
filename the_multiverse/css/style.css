@@ -1,0 +1,15 @@
+html,body{
+    background: #000000;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#logo{
+    margin-top: 15%;
+    width: 500px;
+}
+
+#cs{
+    width: 200px;
+}
