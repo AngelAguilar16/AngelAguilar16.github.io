@@ -1,108 +1,190 @@
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+html,body{
+    margin: 0 auto;
+    text-align: center;
+    background: #63adb0;
+    /*background: url("../img/back_2.jpg") center fixed no-repeat;*/
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
 }
 
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
+#fp{
+    margin-top: 12%;
+    width: 250px;
+    height: 175px;
 }
 
-a,
-a:focus,
-a:hover {
-  color: #fff;
+nav{
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
 
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; 
-  background-color: #fff;
-  border: .05rem solid #fff;
+u, i, a{
+    margin-left: 3%;
+    margin-right: 3%;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
 }
 
-html,
-body {
-  height: 100%;
-  background-color: #2A5CE8;
+form{
+    margin: 0 auto;
+    width: 50%;
+    height: 300px;
+    margin-top: 6%;
+    background: #46BD62;
+    border-radius: 100px;
 }
 
-body {
-  display: -ms-flexbox;
-  display: flex;
-  font-family: 'Roboto', sans-serif;
-  color: #fff;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+#background{
+    width: 100%;
+    height: 300px;
+    background: url("../img/veget.jpg");
+    background-position: center;
 }
 
-#logoSWS{
+#login{
+    margin-top: 2%;
+    border: 0;
+    background: #FFFFFF;
+    width: 20%;
+    height: 35px;
+    border-radius: 200px;
+    transition: 0.6s;
+}
+
+#login:hover{
+    background: #42A9B2;
+    color: #FFFFFF;
+    transition: 0.6s;
+}
+
+#loginForm{
+    height: 400px;
+}
+
+#captcha{
+    margin: 0 auto;
+}
+
+#user{
+    background-image: url(../img/boy_1.png);
+    background-position-y: center;
+    background-position-x: 8px;
+    padding-left: 25px;
+    background-repeat: no-repeat;
+}
+
+#pass{
+    background-image: url(../img/key_1.png);
+    background-position-y: center;
+    background-position-x: 8px;
+    padding-left: 25px;
+    background-repeat: no-repeat;
+}
+
+#user, #pass, #mail{
+    margin-top: 6%;
+    border-radius: 30px;
+    border: 0;
+    height: 35px;
     width: 200px;
+    transition: 0.6s;
+}
+
+#user:focus, #pass:focus, #mail:focus{
+    width: 300px;
+    transition: 0.6s;
+}
+
+#signup{
+    margin-top: 6%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#su{
+    width: 50%;
+    height: 500px;
+    margin-top: 6%;
+    background: #46BD62;
+    border-radius: 100px;
+}
+
+#mail{
+    background-image: url(../img/email.png);
+    background-position-y: center;
+    background-position-x: 8px;
+    padding-left: 25px;
+    background-repeat: no-repeat;
+}
+
+#esp, #en{
+    background: none;
+    border: 0px;
+    color: #FFFFFF;
 }
 
 #logoCoco{
-    width: 50px;
+    width: 80px;
+    height: 80px;
 }
 
-.cover-container {
-  max-width: 42em;
+.team{
+    margin-top: 1%;
+    font-size: 18px;
 }
 
-
-.masthead {
-  margin-bottom: 2rem;
+h2{
+    margin-top: 3%;
 }
 
-.masthead-brand {
-  margin-bottom: 0;
+.teammembs{
+    width: 200px;
+    height: 200px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: 0.4s;
 }
 
-.nav-masthead .nav-link {
-  padding: .25rem 0;
-  font-weight: 700;
-  color: rgba(255, 255, 255, .5);
-  background-color: transparent;
-  border-bottom: .25rem solid transparent;
+.teammembs:hover{
+    width: 230px;
+    height: 230px;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    transition: 0.4s;
 }
 
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+#weathertable{
+    margin: 0 auto;
+    font-size: 20px;
 }
 
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
+#logoSWS{
+    display: inline-block;
+    width: 150px;
 }
 
-.nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+.active{
+    color: #E6FF65;
 }
 
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
+#imgSlide1{
+    background: url("../img/back_2.jpg") no-repeat center;
+    width: 100%;
+    height: 300px;
 }
 
-.cover {
-  padding: 0 1.5rem;
-}
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
+tr,th,td{
+    font-weight: 200;
 }
 
-.mastfoot {
-  color: rgba(255, 255, 255, .5);
+th{
+    background: #42A9B2;
+    color: white;
+}
+
+td{
+    background: #46BD62;
+    color: white;
 }

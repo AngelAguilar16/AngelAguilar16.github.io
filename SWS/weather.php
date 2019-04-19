@@ -11,11 +11,12 @@
 </head>
 <body>
     <nav>
-        <u id="menu">
-            <i><a href="index.php">Inicio</a></i>
-            <i><a href="weather.php">Clima</a></i>
-            <i><a href="about.html">Acerca</a></i>
+        <u>
+            <i><a href="index.html">Inicio</a></i>
+            <i><a href="about.html">Acerca de</a></i>
+            <i><a href="weather.php" class="active">Clima</a></i>
             <i><a href="login.php">Inicio de sesion</a></i>
+            <i><a href="us.html">Nosotros</a></i>
         </u>
     </nav>
     <h1>Weather Information</h1>

@@ -15,8 +15,6 @@
          session_start();
          
          if($_SERVER["REQUEST_METHOD"] == "POST") {
-            // username and password sent from form 
-            
             $myusername = mysqli_real_escape_string($db,$_POST['user']);
             $mypassword = mysqli_real_escape_string($db,$_POST['pass']); 
             
@@ -39,11 +37,12 @@
          }
     ?>
     <nav>
-        <u id="menu">
-            <i><a href="index.php">Inicio</a></i>
+        <u>
+            <i><a href="index.html">Inicio</a></i>
+            <i><a href="about.html">Acerca de</a></i>
             <i><a href="weather.php">Clima</a></i>
-            <i><a href="about.html">Acerca</a></i>
-            <i><a href="login.php">Inicio de sesion</a></i>
+            <i><a href="login.php" class="active">Inicio de sesion</a></i>
+            <i><a href="us.html">Nosotros</a></i>
         </u>
     </nav>
     <form action="" method="POST" id="loginForm">
@@ -51,19 +50,14 @@
         <br><br>
         <input type="password" placeholder="Contraseña" id="pass" name="pass">
         <br><br>
-        <!--<div class="g-recaptcha" id="captcha" data-sitekey="6LcFdpcUAAAAAFLEZLu5RUonL7t5QJo04suN_CoY"></div>-->
         <input type="submit" id="login" value="Log In">
     </form>
     <a href="signup.html" id="signup">Sign Up</a>
     <br><br>
-    <!--<button class="btnLan" id="esp" onclick="language(0)">Español</button>-->
-    <!--<button class="btnLan" id="en" onclick="language(1)">Ingles</button>-->
     <br><br>
     <footer>
          <span>&copy; 2019 Coco Tech Solutions</span>
     </footer>
-    <!--<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>-->
     <script src="js/script.js"></script>
 </body>
 </html>
