@@ -46,17 +46,20 @@
         </u>
     </nav>
     <form action="" method="POST" id="loginForm">
+        <img src="img/Logo_SWS_KarenVersion.png" alt="" id="logoSWS">
+        <br>
         <input type="text" placeholder="Usuario" id="user" name="user">
         <br><br>
         <input type="password" placeholder="Contraseña" id="pass" name="pass">
         <br><br>
-        <input type="submit" id="login" value="Log In">
+        <input type="submit" id="login" value="Iniciar Sesion">
+        <br><br>
+        <a href="signup.html" id="signup">¿No tienes cuenta? Crea una</a>
     </form>
-    <a href="signup.html" id="signup">Sign Up</a>
-    <br><br>
-    <br><br>
     <footer>
-         <span>&copy; 2019 Coco Tech Solutions</span>
+        <img src="img/logo_coco_1.png" alt="" id="logoCoco">
+        <br>
+        <span>&copy; 2019 Coco Tech Solutions</span>
     </footer>
     <script src="js/script.js"></script>
 </body>

@@ -85,7 +85,9 @@
     </table>
     <br><br><br><br><br>
     <footer>
-         <span>&copy; 2019 Coco Tech Solutions</span>
+        <img src="img/logo_coco_1.png" alt="" id="logoCoco">
+        <br>
+        <span>&copy; 2019 Coco Tech Solutions</span>
     </footer>
 </body>
 </html>
