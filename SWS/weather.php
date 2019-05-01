@@ -19,12 +19,22 @@
             <i><a href="us.html">Nosotros</a></i>
         </u>
     </nav>
+    <?php
+        $sesion = True;
+        if(!$sesion) {
+            header("location:login.php");
+        }
+        ?>
+
+    <?php if($sesion): ?>
+    <?php endif; ?>
+
     <h1>Weather Information</h1>
     <br><br>
     <table id="weathertable">
         <tr>
             <th>8:00</th>
-            <th>9:00</th> 
+            <th>9:00</th>
             <th>10:00</th>
             <th>11:00</th>
             <th>12:00</th>
@@ -39,46 +49,46 @@
         </tr>
         <tr>
             <td>36°C</td>
-            <td>80°C</td> 
+            <td>80°C</td>
             <td>120°C</td>
             <td>36°C</td>
-            <td>80°C</td> 
+            <td>80°C</td>
             <td>120°C</td>
             <td>36°C</td>
-            <td>80°C</td> 
+            <td>80°C</td>
             <td>120°C</td>
             <td>36°C</td>
-            <td>80°C</td> 
+            <td>80°C</td>
             <td>120°C</td>
             <td>36°C</td>
         </tr>
         <tr>
             <td>46°F</td>
-            <td>90°F</td> 
+            <td>90°F</td>
             <td>130°F</td>
             <td>46°F</td>
-            <td>90°F</td> 
+            <td>90°F</td>
             <td>130°F</td>
             <td>46°F</td>
-            <td>90°F</td> 
+            <td>90°F</td>
             <td>130°F</td>
             <td>46°F</td>
-            <td>90°F</td> 
+            <td>90°F</td>
             <td>130°F</td>
             <td>36°F</td>
         </tr>
         <tr>
             <td>46°K</td>
-            <td>90°K</td> 
+            <td>90°K</td>
             <td>130°K</td>
             <td>46°K</td>
-            <td>90°K</td> 
+            <td>90°K</td>
             <td>130°K</td>
             <td>46°K</td>
-            <td>90°K</td> 
+            <td>90°K</td>
             <td>130°K</td>
             <td>46°K</td>
-            <td>90°K</td> 
+            <td>90°K</td>
             <td>130°K</td>
             <td>36°K</td>
         </tr>

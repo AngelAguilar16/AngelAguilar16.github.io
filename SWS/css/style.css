@@ -186,3 +186,16 @@ td{
     background: #46BD62;
     color: white;
 }
+
+.imgInf{
+    width: 200px;
+    height: 200px;
+    box-shadow: rgba(1,1,1,.4) 0px 4px 0px 0px;
+    filter: blur(0.8px);
+    transition: 0.5s;
+}
+
+.imgInf:hover{
+    filter: blur(0px);
+    transition: 0.5s;
+}
