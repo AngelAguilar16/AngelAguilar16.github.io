@@ -315,7 +315,7 @@ a:hover, a:active, a:focus {
 
 .work-thumb-overlay {
   position: absolute;
-  background: #7682cc;
+  background: #0A0B0B;
   border-radius: 5px;
   cursor: crosshair;
   opacity: 0;
@@ -381,7 +381,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 footer {
-  background: #7682cc;
+  background: #0A0B0B;
   text-align: center;
   padding: 120px 0;
 }
