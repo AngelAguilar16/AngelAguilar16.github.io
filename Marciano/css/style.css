@@ -1,0 +1,16 @@
+body{
+    background: #1a1a1a;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#logoM{
+    width: 100px;
+    height: 100px;
+}
+
+.photos{
+    margin-top: 1%;
+    width: 200px;
+    border: 2px white solid;
+}
