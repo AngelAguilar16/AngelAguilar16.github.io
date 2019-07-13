@@ -1,0 +1,3 @@
+language: html
+rvm:
+ - 0.1
