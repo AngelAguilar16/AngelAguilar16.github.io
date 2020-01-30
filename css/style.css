@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     text-align: center;
-    background: black;
+    background: #35459E;
     color: white;
 }
 
@@ -15,7 +15,7 @@ nav{
 }
 
 #io{
-    margin-top: 20px; 
+    margin-top: 10px; 
     width: 150px;
 }
 
@@ -40,12 +40,17 @@ p{
     width: 20px;
 }
 
+.pro{
+    width: 70px;
+    margin: 5px;
+}
+
 #any{
     width: 100px;
 }
 
 #logo{
-    margin-top: 20px; 
+     
     width: 90px;
 }
 
@@ -57,4 +62,9 @@ p{
 #logoGithub:hover{
     transition: 0.6s;
     transform: scale(1.2);
+}
+
+
+span{
+    font-size: 12px;
 }
