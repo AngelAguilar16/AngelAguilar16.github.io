@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.Blue-1-hex { color: #001EBA; }
+.Blue-2-hex { color: #05147D; }
+.Blue-3-hex { color: #35459E; }
+.Blue-4-hex { color: #003B74; }
+.Blue-5-hex { color: #0B42FF; }
+
+/* Color Theme Swatches in RGBA */
+.Blue-1-rgba { color: rgba(0, 29, 186, 1); }
+.Blue-2-rgba { color: rgba(4, 20, 124, 1); }
+.Blue-3-rgba { color: rgba(52, 68, 158, 1); }
+.Blue-4-rgba { color: rgba(0, 59, 116, 1); }
+.Blue-5-rgba { color: rgba(11, 66, 255, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Blue-1-hsla { color: hsla(230, 100, 36, 1); }
+.Blue-2-hsla { color: hsla(232, 92, 25, 1); }
+.Blue-3-hsla { color: hsla(230, 49, 41, 1); }
+.Blue-4-hsla { color: hsla(209, 100, 22, 1); }
+.Blue-5-hsla { color: hsla(226, 100, 52, 1); }
