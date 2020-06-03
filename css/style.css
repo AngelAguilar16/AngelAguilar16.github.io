@@ -2,8 +2,18 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     text-align: center;
-    background: #35459E;
+    /*background: #35459E;*/
+    background: black;
     color: white;
+}
+
+h1{
+    margin-top: 20%;
+    font-weight: 400;
+}
+
+h2{
+    font-weight: 100;
 }
 
 nav{
@@ -17,6 +27,8 @@ nav{
 #io{
     margin-top: 10px; 
     width: 150px;
+    height: 150px;
+    border-radius: 100px;
 }
 
 p{
